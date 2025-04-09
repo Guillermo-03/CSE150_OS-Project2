@@ -19,8 +19,9 @@ Everyone else: ssh -i path/to/cse150key s25-3l-g1@klwin00.eng.ucmerced.edu
 
 
 Copy Local Files to Server:
-Elyas: scp -r -i "C:/Users/elyas/.ssh/cse150key" "C:\Users\elyas\Documents\Github\CSE150Project0\Project_0\nachos\threads" s25-3l-g1@klwin00.eng.ucmerced.edu:~/nachos
+Elyas: scp -r -i "C:/Users/elyas/.ssh/cse150key" "C:\Users\elyas\Documents\Github\CSE150_OS-Project2\nachos\userprog" s25-3l-g1@klwin00.eng.ucmerced.edu:~/nachos
 
+Anyone else: scp -r -i "C:/path/to/.ssh/key" "C:\path\to\nachos\userprog" s25-3l-g1@klwin00.eng.ucmerced.edu:~/nachos
 
 Add nachos to path before running it:
 export PATH=$PATH:/home/S25/3L/s25-3l-g1/nachos/bin
